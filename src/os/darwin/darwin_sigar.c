@@ -1965,7 +1965,7 @@ int sigar_proc_fd_get(sigar_t *sigar, sigar_pid_t pid,
     free(ofiles);
 #else
     /* seems the same as the above */
-    procfd->total = filed.fd_lastfile;
+    procfd->total = filed.fd_nfiles;
 #endif
 
     return SIGAR_OK;
