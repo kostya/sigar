@@ -27,7 +27,6 @@ spec = Gem::Specification.new do |s|
   s.email = props['project.email']
   s.homepage = props['project.homepage']
   s.platform = Gem::Platform::RUBY
-  s.has_rdoc = false
   s.extensions = 'bindings/ruby/extconf.rb'
   s.files =
     %w(LICENSE NOTICE README.md Rakefile version.properties) +
