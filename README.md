@@ -4,6 +4,9 @@ Fork of hyperic/sigar with some fixes. Support only ruby binding. Part of [Eye g
 
 ## Fixed:
 
+### [2.0.10] 31-10-2021
+* Fix compilation on MacOS 11.3.1 [#11](https://github.com/kostya/sigar/issues/11)([commit](https://github.com/kostya/sigar/commit/49a9aeeff54e97ac6f41d464c30ff6c8adf4bcf4))
+
 ### [2.0.9] 28-06-2021
 * Fix compilation on FreeBSD 13 [#10](https://github.com/kostya/sigar/issues/10)([commit](https://github.com/kostya/sigar/commit/b78b558fb756a75dc7d6cbf704423be3c7098ae5))
 
