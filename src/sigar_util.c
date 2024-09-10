@@ -30,6 +30,7 @@
 
 #include <dirent.h>
 #include <sys/stat.h>
+#include <sys/time.h>
 
 SIGAR_INLINE char *sigar_uitoa(char *buf, unsigned int n, int *len)
 {
